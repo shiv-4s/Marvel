@@ -1,0 +1,117 @@
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+div#hero,
+div#villan {
+  width: 335px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+.div {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+#div1 {
+  background-color: white;
+}
+#div2 {
+  background-color: white;
+}
+#div3 {
+  background-color: white;
+}
+#div4 {
+  background-color: white;
+}
+#superHeros1,
+#superHeros2,
+#captain,
+#hulk,
+#widow,
+#superVillain1,
+#superVillain2,
+#ultron,
+#goblin,
+#doctor {
+  width: 100px;
+  height: 100px;
+}
+#superHerosName1,
+#superHerosName2,
+#hulktext {
+  font-size: small;
+  font-family: "Marvel", sans-serif;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 32px;
+  background-color: white;
+}
+#captaintext {
+  font-size: x-small;
+  position: relative;
+  bottom: 26px;
+  width: 100px;
+  text-align: center;
+  background-color: white;
+}
+#widowtext {
+  font-size: small;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 32px;
+}
+#superVillainName1,
+#superVillainName2,
+#ultrontext,
+#goblintext,
+#doctortext {
+  font-family: "Marvel", sans-serif;
+  font-size: small;
+  position: relative;
+  bottom: 32px;
+  background-color: white;
+  text-align: center;
+  width: 100px;
+}
+
+body {
+  background-image: url("./marvel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#outer{
+  width: 900px;
+  height: 600px;
+  border: 2px solid white;
+  background-color: black;
+  opacity: .9;
+  margin-top: 200px;
+  margin-left: 300px;
+  position: relative;
+  bottom: 100px;
+   
+ }
+#text{
+  text-align: center;
+  color: white;
+  background-color: red;
+  position: relative;
+  bottom: 20px;    
+  font-family: 'Marvel', sans-serif;
+}
+#popularHeros, #popularVillains{
+  color: white;
+  font-family: 'Marvel', sans-serif;
+  text-align: center;
+
+}
+
+ 
